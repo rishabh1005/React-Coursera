@@ -69,10 +69,12 @@ import { Card, CardImg, CardText, CardBody,
             const dishItem = this.renderDish(dish)
             const comment = this.renderComments(dish.comments)
             return (
-                <div className='row'>
-                    {dishItem}
-                    {comment}
+                <div className="container">
+                    <div className='row'>
+                        {dishItem}
+                        {comment}
                     </div>
+                </div>
             )
         }
 
