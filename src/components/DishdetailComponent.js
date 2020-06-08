@@ -3,8 +3,6 @@ import { Card, CardImg, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
 
-
-
     function RenderDish({dish})
     {
         if (dish != null)
