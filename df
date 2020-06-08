@@ -1,0 +1,59 @@
+[33mcommit a2c64b78e20fe5297ca99ac1d80d4492c7fd3f14[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Mon Jun 8 14:25:30 2020 +0530
+
+    Single Page Applications Part 1
+
+[33mcommit b1d9e4565db0d407fec8147d533e631c3e8ea8dd[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Sat Jun 6 16:29:20 2020 +0530
+
+    React Router
+
+[33mcommit f27c75565255872a7c8aa2cb5436f9c640f15575[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Sat Jun 6 15:28:11 2020 +0530
+
+    Header and Footer
+
+[33mcommit 8def7fb4316f7f640e070933939da370b7e97000[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Sat Jun 6 11:16:19 2020 +0530
+
+    Functional Components
+
+[33mcommit 54b3906dc9c57a4e4bb25ef89f4dd6b9309c0955[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Sat Jun 6 10:25:32 2020 +0530
+
+    Presentational and Container Components
+
+[33mcommit 8ae1e32260ea361ffacce391eff74eedc81b8065[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Wed Jun 3 19:05:18 2020 +0530
+
+    assignment 1 complete
+
+[33mcommit 688267d0b9f9379a6088225b79a62fd61b5da233[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Tue Jun 2 15:42:50 2020 +0530
+
+    Components Part 2
+
+[33mcommit b619ba73375e5500d82b9cb784f64642117dec40[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Tue Jun 2 14:43:43 2020 +0530
+
+    Components Part 1
+
+[33mcommit d99c77bdd49ca26a4716a91dedb64599f10758f1[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Fri May 29 12:26:13 2020 +0530
+
+    Configuring React
+
+[33mcommit 0941c791bb089fc8cb93f9749812ddc3dbe112db[m
+Author: Rishabh Khandelwal <rishabh.9659@gmail.com>
+Date:   Fri May 29 11:57:20 2020 +0530
+
+    Initial Setup
