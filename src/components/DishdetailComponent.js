@@ -31,7 +31,8 @@ class CommentForm extends Component{
     }
 
     handleSubmit(values) {
-        this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
+        console.log(values.rating);
+        this.props.postComment(this.props.dishId, values.rating, values.author, values.comment);
         this.toggleModal();
         // event.preventDefault();
     }
@@ -50,7 +51,7 @@ class CommentForm extends Component{
                                     <Label htmlFor="rating">Rating</Label>
                                 </Col>
                                 <Col md={12}>
-                                    <Control.select model=".rating" name="rating"
+                                    <Control.select model=".rating" id="rating" name="rating" 
                                         className="form-control">
                                         <option>1</option>
                                         <option>2</option>
@@ -129,7 +130,7 @@ function RenderDish({dish}) {
         );
 }
 
-function RenderComments({comments, addComment, dishId}) {
+function RenderComments({comments, postComment, dishId}) {
     if (comments == null) {
         return (<div></div>)
     }
@@ -155,7 +156,7 @@ function RenderComments({comments, addComment, dishId}) {
                 <ul className='list-unstyled'>
                     {cmnts}
                 </ul>
-                <CommentForm dishId={dishId} addComment={addComment} />
+                <CommentForm dishId={dishId} postComment={postComment} />
             </div>
         );    
     
@@ -199,7 +200,7 @@ const  DishDetail = (props) => {
                     </div>
                     <div className="col-12 col-md-5 m-1">
                         <RenderComments comments={props.comments}
-                            addComment={props.addComment}
+                            postComment={props.postComment}
                             dishId={props.dish.id}
                         />
                     </div>
